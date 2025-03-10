@@ -1,0 +1,19 @@
+.threat-list {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .threat-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .threat-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
