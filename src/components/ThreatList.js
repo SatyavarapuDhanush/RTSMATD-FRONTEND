@@ -6,7 +6,7 @@ function ThreatList() {
   const [threats, setThreats] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:8080/threats")
+    axios.get("http://localhost:8080/api/threats/getallthreats")
       .then((response) => setThreats(response.data))
       .catch((error) => console.error("Error fetching threats:", error));
   }, []);

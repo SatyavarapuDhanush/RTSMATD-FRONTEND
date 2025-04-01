@@ -9,7 +9,8 @@ function Home() {
     <div className="container">
       
       <div className="content">
-        <h1>Realtime Cloud Monitoring & Threat Detection</h1>
+        <h1>Real-Time Security Monitoring & Threat Detection</h1>
+        <p>Real-time security monitoring and threat detection is a cybersecurity process that continuously monitors systems and networks to identify and respond to security threats</p>
         <Dashboard />
       </div>
     </div>

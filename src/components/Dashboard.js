@@ -7,7 +7,7 @@ function Dashboard() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:8080/logs")
+    axios.get("http://localhost:8080/api/logs/getalllogs")
       .then((response) => setData(response.data))
       .catch((error) => console.error("Error fetching logs:", error));
   }, []);

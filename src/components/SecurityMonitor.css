@@ -1,0 +1,71 @@
+.security-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1a1a1a;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  h1, h2 {
+    color: #ffcc00;
+  }
+  
+  .upload-section {
+    margin: 15px 0;
+  }
+  
+  .upload-section input {
+    margin-bottom: 10px;
+  }
+  
+  .upload-section button {
+    background: #ffcc00;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .upload-section button:hover {
+    background: #ff9900;
+  }
+  
+  .scan-result {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .scan-result.safe {
+    background: green;
+    color: white;
+  }
+  
+  .scan-result.danger {
+    background: red;
+    color: white;
+  }
+  
+  .threat-logs {
+    margin-top: 20px;
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .threat-logs ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .threat-logs li {
+    background: #444;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 3px;
+  }
+  
